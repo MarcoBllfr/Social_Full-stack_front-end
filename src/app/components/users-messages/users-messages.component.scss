@@ -1,0 +1,41 @@
+
+.user-image-container img  {
+      border-radius: 45%; 
+      margin-top: -20px; 
+      border-color: aqua;
+      border-style: groove;
+      border-width: 5px;
+  }
+  
+  .user-section {
+    display: flex;
+    align-items: center;
+  }
+  
+.card-username{
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.card-text{
+font-size: 1rem;
+}
+
+  .card {
+    
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+
+  .card:hover{
+    transition: box-shadow 0.5s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    .card-header {
+      transition: background-color 0.8s ease;
+        background-color: aqua;
+      
+    }
+  }
+  
